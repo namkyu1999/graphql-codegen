@@ -34,6 +34,6 @@ test {
 
 generateJava{
     schemaPaths = ["${projectDir}/src/main/resources/schema"] // List of directories containing schema files
-    packageName = 'io.litmuschaos' // The package name to use to generate sources
+    packageName = 'io.litmuschaos.generated' // The package name to use to generate sources
     generateClientv2 = true
 }
